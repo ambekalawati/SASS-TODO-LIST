@@ -1,0 +1,57 @@
+.body {
+  background-color: #4c4c4c;
+  font-family: sans-serif;
+  padding: 5%;
+  margin: 0; }
+
+.todo-body ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .todo-body ul li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .todo-body ul li button {
+      background-color: #ffffff;
+      border: 1px solid #dc3545;
+      color: #dc3545; }
+      .todo-body ul li button:hover, .todo-body ul li button:focus {
+        background-color: #dc3545;
+        color: #ffffff;
+        border-color: #ffffff; }
+
+.todo-footer {
+  padding: 15px;
+  display: flex; }
+  .todo-footer input {
+    flex-grow: 1;
+    margin-right: 15px;
+    padding-left: 15px; }
+  .todo-footer button {
+    background-color: #ffffff;
+    border: 1px solid #007bff;
+    color: #007bff; }
+    .todo-footer button:hover, .todo-footer button:focus {
+      background-color: #007bff;
+      color: #ffffff;
+      border-color: #ffffff; }
+
+.todo-header {
+  background-color: #128fc2;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px; }
+  .todo-header h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+
+.todo-list {
+  background-color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
